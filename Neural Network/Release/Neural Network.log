@@ -1,0 +1,21 @@
+﻿Build started 25/1/2014 12:59:19 PM.
+     1>Project "C:\Users\Jack\Documents\neural\nnImplementation\Neural Network\Neural Network\Neural Network.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\jack\documents\neural\nnimplementation\neural network\neural network\dataReader.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\jack\documents\neural\nnimplementation\neural network\neural network\dataReader.h(211): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : see declaration of 'strtok'
+     1>c:\users\jack\documents\neural\nnimplementation\neural network\neural network\dataReader.h(218): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : see declaration of 'strtok'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jack\Documents\neural\nnImplementation\Neural Network\Release\Neural Network.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jack\Documents\neural\nnImplementation\Neural Network\Release\Neural Network.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jack\Documents\neural\nnImplementation\Neural Network\Release\Neural Network.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+         Finished generating code
+         Neural Network.vcxproj -> C:\Users\Jack\Documents\neural\nnImplementation\Neural Network\Release\Neural Network.exe
+     1>Done Building Project "C:\Users\Jack\Documents\neural\nnImplementation\Neural Network\Neural Network\Neural Network.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.83
